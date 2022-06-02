@@ -508,6 +508,12 @@ button:focus {
     .feature_area {
       padding-bottom: 40px; } }
 
+.feature_areas {
+  padding-bottom: 5px; }
+  @media (max-width: 991px) {
+    .feature_areas {
+      padding-bottom: 40px; } }
+
 .single_feature {
   position: relative;
   background: #f9f9ff;
@@ -529,6 +535,12 @@ button:focus {
     margin-bottom: 0px; }
   .single_feature:hover {
     box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1); }
+  @media (max-width:200px) {
+    .single_feature {
+      position: relative;
+      left: 200px;
+    }
+  }
 
 /* End Features Area css
 ============================================================================================ */
@@ -920,6 +932,28 @@ button:focus {
 
 /* End Trainers Area css
 ============================================================================================ */
+
+/* Start penjelasan Area css
+============================================================================================ */
+.penjelasan_area {
+  padding: 130px 0 100px;
+  background: #daeaf6 }
+  @media (max-width: 991px) {
+    .events_area {
+      padding: 70px 0; } }
+  .events_area .event-link {
+    color: #fdc632;
+    font-size: 13px;
+    text-transform: uppercase; }
+    .events_area .event-link img {
+      margin-left: 5px;
+      display: inline-block; }
+
+/* End penjelasan Area css
+============================================================================================ */
+
+
+
 /* Start Event Area css
 ============================================================================================ */
 .events_area {
